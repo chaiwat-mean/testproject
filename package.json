@@ -1,0 +1,17 @@
+{
+  "name": "Cypress moneyspace test",
+  "author": "chaiwat",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key"
+  },
+  "dependencies": {
+    "todomvc-app-css": "2.3.0",
+    "todomvc-common": "1.0.5"
+  },
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}

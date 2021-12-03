@@ -1,0 +1,49 @@
+{
+    "moneyspace": {
+        "url_merchant": "https://www.moneyspace.net",
+        "url_prod": "https://a.moneyspace.net",
+        "url_stage": "https://a.stage.moneyspace.net",
+        "demoshop":{
+            "main": "https://worldwallet.net/demoshop"
+         },
+        "secret_id": "TL65GYEO720NDT530KJ5",
+        "secret_key": "MooCn310kyHpu67D98rc1959ZCyM8Q32b8n07zb9qauZiLcbhtTB057ctLDijssIq98GF4r1Qu292P27"
+    },
+    "tests": {
+        "CardLink": {
+            "path": "/payment/CreateTransaction",
+            "orderIdPrefix": "Cps_Card_Link_"
+        },
+        "CardMskey": {
+            "orderIdPrefix": "Cps_Card_Key_",
+            "path": "/CreateTransactionID"
+        },
+        "installmentMskey": {
+            "orderIdPrefix": "Cps_Installment_Key_",
+            "path": "/CreateTransactionID"
+        },
+        "installmentLink": {
+            "orderIdPrefix": "Cps_Installment_Link_",
+            "path": "/payment/Createinstallment"
+        },
+        "QRLink": {
+            "orderIdPrefix": "Cps_QR_Link_",
+            "path": "/payment/CreateTransaction"
+        },
+        "QRMskey": {
+            "orderIdPrefix": "Cps_QR_Key_",
+            "path": "/CreateTransactionID"
+        },
+        "merchant": {
+            "orderIdPrefix": "Cps_Card_Merchant_Link_",
+            "path": "/merchantapi/v2/createpayment/obj"
+        },
+        "check_status_api": {
+            "tx_whilelable": "/CheckPayment",
+            "orderid_whilelable": "/CheckOrderID",
+            "tx_phpsdk": "/payment/transactionID",
+            "orderid_phpsdk": "/payment/OrderID"
+        },
+        "cancel_payment": "/merchantapi/cancelpayment"
+    }
+}

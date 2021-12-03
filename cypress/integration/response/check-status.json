@@ -1,0 +1,36 @@
+{
+    "check_tx_whitelable":{
+        "body":[{
+            "transaction id":{
+               "status":"",
+               "amount":"",
+               "description":""
+            }
+        }]
+    },
+    "check_orderid_whitelable":{
+        "body":[{
+            "order id":{
+               "status":"",
+               "amount":"",
+               "description":""
+            }
+        }]
+    },
+    "check_tx_phpsdk":{
+        "body":[{
+            "Amount ":"",
+            "Transaction ID ":"",
+            "Description ":"",
+            "Status Payment ":""
+        }]
+    },
+    "check_orderid_phpsdk":{
+        "body":[{
+            "Amount ":"",
+            "Order ID ":"",
+            "Description ":"",
+            "Status Payment ":""
+        }]
+    }
+}
