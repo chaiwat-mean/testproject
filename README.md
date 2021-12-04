@@ -9,10 +9,9 @@
 
 How to test with github action :
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+ 1. Open tab Actions
+ 2. Open commit
+ 3. Re-run all job
+ 4. Cypress run
+ 5. Wait
+ 6. Finish
